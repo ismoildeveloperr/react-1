@@ -1,8 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import "./App_style_list.css";
-import Technologies from "./Technologies";
-import Student from "./Student";
+// import Technologies from "./Technologies";
 // function App() {
 //   return (
 //     <div className="App">
@@ -24,18 +23,20 @@ import Student from "./Student";
 //   );
 // }
 
-const App = () => {
+
+const Student = () => {
   return (
-    <div class="block">
-      <div class="block1">
-      <Technologies />
+    <div>
+      <div>Student course</div>
+      <div className="Student">
+        <ul>
+          <li>1-course</li>
+          <li>2-course</li>
+          <li>3-course</li>
+          <li>4-course</li>
+        </ul>
       </div>
-      <div class="block2">
-      <Student />
-    </div>
     </div>
   );
 };
-
-
-export default App;
+export default Student;
