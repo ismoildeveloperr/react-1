@@ -1,9 +1,8 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import "./App_style_list.css";
-import Footer from "./Footer";
-import Header from "./Header";
-import Technologies from "./Technologies";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Profile from "./components/Profile";
 // import Footer from "./Footer";
 // import Technologies from "./Technologies";
 // import Header from "./Header";
@@ -30,12 +29,13 @@ import Technologies from "./Technologies";
 
 const App = () => {
   return (
-    <div class="block">
+    <div className="app-wrapper">
       <Header />
-      <Technologies />
-      <Footer />
+      <Nav />
+      <Profile />
     </div>
   );
 };
 
 export default App;
+ 
