@@ -23,20 +23,14 @@ import "./App_style_list.css";
 //   );
 // }
 
-
-const Student = () => {
+const Footer = () => {
   return (
     <div>
-      <div>Student course</div>
       <div className="Student">
-        <ul>
-          <li>1-course</li>
-          <li>2-course</li>
-          <li>3-course</li>
-          <li>4-course</li>
-        </ul>
+        <a href="#s">Home</a>-<a href="#s">News Feed</a>-
+        <a href="#s">Messages</a>-
       </div>
     </div>
   );
 };
-export default Student;
+export default Footer;

@@ -1,8 +1,12 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import "./App_style_list.css";
+import Footer from "./Footer";
+import Header from "./Header";
 import Technologies from "./Technologies";
-import Student from "./Student";
+// import Footer from "./Footer";
+// import Technologies from "./Technologies";
+// import Header from "./Header";
 // function App() {
 //   return (
 //     <div className="App">
@@ -27,15 +31,11 @@ import Student from "./Student";
 const App = () => {
   return (
     <div class="block">
-      <div class="block1">
+      <Header />
       <Technologies />
-      </div>
-      <div class="block2">
-      <Student />
-    </div>
+      <Footer />
     </div>
   );
 };
-
 
 export default App;

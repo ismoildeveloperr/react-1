@@ -1,7 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import "./App_style_list.css";
-
+// import Technologies from "./Technologies";
 // function App() {
 //   return (
 //     <div className="App">
@@ -23,20 +23,14 @@ import "./App_style_list.css";
 //   );
 // }
 
-const Technologies = () => {
+const Header = () => {
   return (
     <div>
-      <div>Technologies</div>
-      <div className="Technologies">
-        <ul>
-          <li>1. Html</li>
-          <li>2. Css</li>
-          <li>3. Js</li>
-          <li>4. React</li>
-        </ul>
+      <div className="Student">
+        <a href="#s">Home</a>-<a href="#s">News Feed</a>-
+        <a href="#s">Messages</a>-
       </div>
     </div>
   );
 };
-
-export default Technologies;
+export default Header;
