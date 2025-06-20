@@ -1,11 +1,11 @@
 import React from "react";
-import s from "./Nav.module.css"
-console.log(s)
-let c1 = "item"
-let c2 = "active"
+import s from "./Nav.module.css";
+console.log(s);
+let c1 = "item";
+let c2 = "active";
 //"item active"
 let classes = c1 + " " + c2;
-let classesNew =`${s.item} ${s.active}`;
+let classesNew = `${s.item} ${s.active}`;
 
 const Nav = () => {
   return (
