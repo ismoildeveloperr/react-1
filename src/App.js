@@ -2,7 +2,9 @@
 import "./App.css";
 import Header from "./components/Header/Header";
 import Nav from "./components/Navbar/Nav";
+import Dialogs from "./components/Dialogs/Dialogs";
 import Profile from "./components/Profile/Profile";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 // import Footer from "./Footer";
 // import Technologies from "./Technologies";
 // import Header from "./Header";
@@ -29,13 +31,21 @@ import Profile from "./components/Profile/Profile";
 
 ///ismoil ismoil
 const App = () => {
-  return (
-    <div className="app-wrapper">
-      <Header />
-      <Nav />
-      <Profile />
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <div className="app-wrapper">
+                <Header/>
+                <Nav/>
+                <div className="app-wrapper-content">
+                    <Routes>
+                        <Route path='/dialogs' element={<Dialogs/>}/>
+                        <Route path='/profile' element={<Profile/>}/>
+                    </ Routes>
+                </div>
+                {/*<Profile />*/}
+            </div>
+        </BrowserRouter>
+    );
 };
 
 export default App;

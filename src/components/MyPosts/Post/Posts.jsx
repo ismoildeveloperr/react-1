@@ -4,7 +4,7 @@ const Posts = (props) => {
   return (
     <div className={s.item}>
       <img
-        src="https://static.tildacdn.com/tild6135-3939-4337-a633-663439333833/75.jpg"
+        src="https://zefirka.club/uploads/posts/2022-10/1665995490_1-zefirka-club-p-chb-avatarki-1.jpg"
         alt=""
       />
     {props.message}
